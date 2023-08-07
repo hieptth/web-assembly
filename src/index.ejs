@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            <%= htmlWebpackPlugin.options.title %>
+        </title>
+    </head>
+    <body>
+        <h1>Hello World!</h1>
+        <p id="res"></p>
+        <div id="progress"></div>
+
+        <input type="number" name="a" id="a" />
+        <div class="btnGroup">
+            <button id="runBtn">Trigger</button>
+            <button id="copyBtn">Copy</button>
+            <button id="workerBtn">Start Worker</button>
+        </div>
+
+        <!-- <script>
+            window.onload = () => {
+                const script = document.createElement("script");
+                script.src = "native.js";
+                document.body.appendChild(script);
+            };
+        </script> -->
+    </body>
+</html>

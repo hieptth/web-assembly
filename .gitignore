@@ -1,0 +1,8 @@
+# IDE & Text editor
+.vscode/
+
+# Dependency directories
+/node_modules/
+
+# Compiled output
+/dist/

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Borel&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --blue: #1D5D9B;
+    --lightblue: #75C2F6;
+    --yellow: #F4D160;
+    --beige: #FBEEAC;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: var(--blue);
+}
+
+h1 {
+    color: var(--yellow);
+    font-family: 'Borel', cursive;
+    text-transform: uppercase;
+}
+
+#progress {
+    background-color: var(--yellow);
+    height: 2rem;
+    width: 0;
+}
+
+input {
+    width: 50%;
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+    background-color: var(--lightblue);
+    color: var(--blue);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btnGroup {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+button {
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    line-height: normal;
+    min-width: 10rem;
+    padding: .5rem;
+    background-color: var(--yellow);
+    border: none;
+    border-radius: .5rem;
+}
+
+button:hover {
+    background-color: var(--lightblue);
+}
+
+#res {
+    font-size: 1.5rem;
+    color: var(--yellow);
+    font-family: 'Poppins', sans-serif;
+}
